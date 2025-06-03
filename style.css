@@ -1,5 +1,21 @@
+.container {
+    border: 2px solid black;
+    padding: 24px;
+      
+}
+
+.row {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .box {
     border: 2px solid red;
-    width: 100px;
+    width: 30%;
     height: 100px;
+    
 }
